@@ -1,19 +1,30 @@
 <!doctype html>
 <html lang="he">
+
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Dev Shots</title>
 	</head>
-
 
 	<body>
 
 		<header>
-			<!-- h1 header will come here-->
+			<h1>DEV SHOTS אירוע המפתחים</h1>
+			<nav>
+				<h3>ניווט</h3>
+					<ol>
+						<li><a href="">מה זה?</a></li>
+						<li><a href="">ההרצאות</a></li>
+						<li><a href="">איפה חניה?</a></li>
+						<li><a href="">הרשמה</a></li>
+						<li><a href="">מידע שימושי</a></li>
+						<li><a href="">עלינו</a></li>
+					</ol>
+			</nav>
 		</header>
-		<nav>
-			<!--navigation will come here-->
-		</nav>
+
+		<h2>אירוע פיתוח בראש טוב</h2>
+		<p>לדבר על טכנולוגיות מהחזית ואתגרים שווים עם גיבורי יום-יום כמוכם</p>
 		
 		<section>
 			<header>
@@ -97,6 +108,54 @@
 			</ul>
 		</section>
 		
+		<section itemscope itemtype="http://schema.org/Event">
+			<h3>אז איפה שמים את האוטו ועוד כמה פרטים חשובים...</h3>
+			<h4 itemprop="location" itemscope itemtype="http://schema.org/Place">הערב יערך במועדון הסאבליים</h4>
+			<address  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<div itemprop="streetAddress">
+			דרך שלמה 53
+			</div>
+			<span itemprop="addressLocality">תל אביב</span>
+			</address>
+			<time itemprop="startDate" datetime="2015-08-2418:30">מתכנסים בשעה 18:30 מתחילים בשעה 19:00</time>
+			<div itemprop="description">
+				<ol>
+					<h4>חניה</h4>
+					<li>חניון אלי פלט</li>
+					<li>רחוב אלפסי</li>
+					<li>רחוב חיים בן עטר</li>
+				</ol>
+				<ol>
+					<h4>אוטובוסים</h4>
+					<li>רכבת מרכז - 42,142</li>
+					<li>תחנה מרכזית - 96,201,163</li>
+				</ol>
+			</div>
+			<aside>
+				<img src="" alt="map">
+				<a itemprop="hasMap" itemscope itemtype="http://schema.org/Map" href="">למפה המלאה</a>
+			</aside>
+		</section>
+		
+		<section>
+			<h3>הרשמה</h3>
+			<h4>הכניסה היא חינם אבל מספר המקומות מצומצם.</h4>
+			<p>נשמח אם תרשמו רק אם אתם באמת מתכוונים להגיע - כדי שלא נסרב למישהו אחר.</p>
+			<p>כל הפרטים האישיים ישארו חסויים ואנחנו לא נעביר אותם לאף אחד.</p>
+			<form>
+				<label>שם מלא</label>
+				<input type="text" placeholder="פרטי וגם משפחה">
+				<label>תפקיד</label>
+				<input type="text" placeholder="מה אתם עושים ביום יום">
+				<label>ארגון</label>
+				<input type="text" placeholder="מי משלם לכם משכורת">
+				<label>מספר טלפון</label>
+				<input type="text" placeholder="או סלולרי, לנו לא אכפת">
+				<label>יש חברים?</label>
+				<input type="text" placeholder="יש לי מלא אבל אני בא לבד">
+				<input type="submit" value="זהו! שלח אותי">
+			</form>
+		</section>
 		
 		<section>
 			<h2>מידע שימושי</h2>
@@ -143,7 +202,44 @@
 				</li>
 			</ul>
 		</section>
+		
+		<footer>
+			<h3>קצת עלינו</h3>
+			<ul>
+				<li>
+					<h4>נטקראפט</h4>
+					<p>
+						NETCRAFT מאפיינת , מעצבת ומפתחת פתרונות אינטרנט המאפשרים ללקוחותיה ליצור הצלחה עסקית ויתרון תחרותי בשוק בו הם פועלים. המתכון הסודי שלנו מורכב מאנשים מצויינים, ניסיון עשר , מתודולוגיה מנצחת והרבה חיוכים.
+					</p>
+				</li>
+				<li>
+					<img src="" alt="digital designers event">
+					<a href="">אירוע למעצבי דיגיטל</a>
+				</li>
+				<li>
+					<img src="" alt="user experience symbol">
+					<a href="">בית הספר לחווית משתמש</a>
+				</li>
+				<li>
+					<img src="" alt="UX on beer symbol">
+					<a href="">חווית משתמש על בירה</a>
+				</li>
+				<li>
+					<img src="" alt="blog symbol">
+					<a href="">הבלוג שלנו</a>
+				</li>
+			</ul>
 
+			<footer>
+				<p>
+					כל הזכויות שמורות לנטקראפט 2012 |
+					תרימו טלפון: 987455698 |
+					בואו לבקר אותנו בבניין תפוז אנשים רחוב בן-גוריון 30 , קומה ראשונה , ר"ג|	
+					INFO@NETCRAFT.CO.IL		
+				</p>
+			</footer>
+			
+		</footer>
 		
 		
 	</body>
